@@ -218,3 +218,43 @@ li {
     outline: none;
     padding: 5px;
 }
+
+
+.card4 {
+    width: 90%;
+    height: 60vh;
+    /* border: 4px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card4_left {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4_right {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #0C244D;
+    font-size: 26px;
+}
+
+.card4_inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card4_title {
+    padding: 5px;
+    text-align: center;
+}
