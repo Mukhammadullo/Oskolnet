@@ -63,7 +63,7 @@ li {
 .card1_inner_left {
     width: 50%;
     height: 60vh;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,4 +98,70 @@ li {
     border: none;
     color: white;
     border-radius: 24px;
+}
+
+.card2_title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1D1444;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2_inner {
+    width: 90%;
+    height: 80vh;
+    border: 1px solid red;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2_inner1,
+.card2_inner2,
+.card2_inner3,
+.card2_inner4,
+.card2_inner5 {
+    width: 19%;
+    height: 60vh;
+    border: 2px solid blue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.b1 {
+    padding: 5px;
+    color: #1D1444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p1,
+.p2 {
+    padding: 5px;
+    color: #1D1444;
+}
+
+.mb {
+    padding: 5px;
+    color: #263057;
+}
+
+.card2_inner3 {
+    background: linear-gradient(180deg, #273158 0%, #0C244D 100%);
+    color: white;
+}
+
+.b11,.p11, .p22,.mb1 {
+    color: white;
+    padding: 8px;
 }
