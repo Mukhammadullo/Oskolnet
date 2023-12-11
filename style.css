@@ -30,6 +30,7 @@ li {
     border: none;
     color: white;
     border-radius: 24px;
+
 }
 
 .btn2 {
@@ -101,6 +102,7 @@ li {
 }
 
 .card2_title {
+    margin-top: 30px;
     text-align: center;
     text-transform: uppercase;
     color: #1D1444;
@@ -116,9 +118,9 @@ li {
 .card2_inner {
     width: 90%;
     height: 80vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 12px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 2px black;
 
     display: flex;
     justify-content: space-between;
@@ -132,7 +134,7 @@ li {
 .card2_inner5 {
     width: 19%;
     height: 60vh;
-    border: 2px solid blue;
+
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -159,9 +161,60 @@ li {
 .card2_inner3 {
     background: linear-gradient(180deg, #273158 0%, #0C244D 100%);
     color: white;
+    border-radius: 16px;
 }
 
-.b11,.p11, .p22,.mb1 {
+.b11,
+.p11,
+.p22,
+.mb1 {
     color: white;
     padding: 8px;
+}
+
+.btn22 {
+    width: 180px;
+    height: 45px;
+    background-color: #6984F0;
+    border: none;
+    color: white;
+    border-radius: 24px;
+    margin: 8px;
+}
+
+.card3 {
+    width: 90%;
+    height: 35vh;
+    background-color: #0C244D;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_card3 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    font-size: 36px;
+}
+
+
+.inp1 {
+    width: 300px;
+    height: 32px;
+    border-radius: 12px;
+    outline: none;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.inp2 {
+    width: 300px;
+    height: 32px;
+    border-radius: 12px;
+    outline: none;
+    padding: 5px;
 }
