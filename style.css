@@ -55,7 +55,7 @@ li {
 .card1_inner {
     width: 80%;
     height: 60vh;
-    border: 1px solid red;
+  
     background-color: white;
     border-radius: 12px;
     display: flex;
